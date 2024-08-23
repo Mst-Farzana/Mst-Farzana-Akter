@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'popins' sans-serif;
+}
+#main-menu {
+  background: #2f26de;
+}
+#main-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+}
+#main-menu li {
+  display: inline-block;
+  position: relative;
+}
+#main-menu li a {
+  padding: 12px 15px;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+#main-menu ul li a:hover {
+  background: wheat;
+}
+#main-menu ul ul {
+  position: absolute;
+  left: 0;
+  top: 42px;
+  background: blue;
+  width: 150px;
+  display: none;
+}
+
+#main-menu ul ul li {
+  display: block;
+}
+
+#main-menu ul li:hover ul {
+  display: block;
+}
+#main-menu ul li:hover a {
+  background: rgb(179, 245, 199);
+}
+#main-menu ul li:hover li a {
+  background: rgb(179, 245, 199);
+}
+
+#main-menu ul ul li a:hover {sss
+  background: #2f272f;
+}
